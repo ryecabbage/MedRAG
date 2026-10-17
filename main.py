@@ -151,6 +151,7 @@ def retrieve(q):
 
 #designing the answer structure
 def build_user_message(retrieved, q):
+    
     context = "\n".join(chunk for chunk, score in retrieved)
     return f"CONTEXT:\n{context}\n\nQUESTION: {q}\n If the CONTEXT does not answer this, reply exactly: {REFUSAL}"
 
