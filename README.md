@@ -120,15 +120,19 @@ python main.py
 
 The cache is not invalidated automatically yet, so skipping this step means you will be searching the old data.
 
-### Example
+### Examples
+<img width="1475" height="543" alt="Screenshot From 2026-10-17 19-11-31" src="https://github.com/user-attachments/assets/65b96e5d-5e9c-4336-936f-5eda2684311e" />
+Question: How often does the minoxidil label say to apply it?</br>
+Answer: Directions • apply one mL with dropper 2 times a day directly onto the scalp in the hair loss area. This is general information, not medical advice. Please consult a doctor or pharmacist. Sources: - MINOXIDIL - Dosage - score : 0.79 - WITCH HAZEL - Dosage - score : 0.72 - SALICYLIC ACID GEL (also called SALICYLIC ACID) - Dosage - score : 0.71
 
-```
-Enter your questions: What is minoxidil used for?
-```
+<img width="1475" height="322" alt="Screenshot From 2026-10-17 19-13-29" src="https://github.com/user-attachments/assets/5e8e826b-3c26-4775-aeb7-b066096a84c7" />
+Question:What is doxylamine succinate used for?</br>
+Answer: DOXYLAMINE SUCCINATE is used to help reduce difficulty in falling asleep. This is general information, not medical advice. Please consult a doctor or pharmacist. Sources: - DOXYLAMINE SUCCINATE - Indications - score : 0.85 - DOXYLAMINE SUCCINATE - Warnings - score : 0.77 - DOXYLAMINE SUCCINATE - Dosage - score : 0.74 
 
-The three chunks retrieved for this question are `MINOXIDIL - Indications`, `MINOXIDIL - Warnings` and `MINOXIDIL - Dosage`. The answer is built from those, followed by the disclaimer and the source list with a similarity score for each chunk.
+<img width="1475" height="322" alt="Screenshot From 2026-10-17 19-13-47" src="https://github.com/user-attachments/assets/7518207b-4bd6-4a4b-be20-70896a14d0df" />
+Question: What are the side effects of lamotrigine?</br>
+Answer: I don't have information about that in my knowledge base. This is general information, not medical advice. Please consult a doctor or pharmacist. Sources: - CLONIDINE HYDROCHLORIDE - Warnings - score : 0.65 - LAMOTRIGINE - Indications - score : 0.64 - LAMOTRIGINE - Dosage - score 0.64 
 
-Ask about something that is not in the data, for example a drug that is missing from the dataset, and the intended behavior is the fixed reply: *I don't have information about that in my knowledge base.*
 
 ## Configuration
 
